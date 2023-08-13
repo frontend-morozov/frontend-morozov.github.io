@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>«Суши Весла» — доставка суши в Минске</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome-5.0.8/css/fontawesome-all.css"/>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="libs/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/animate/animate.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header__container container">
+        <a href="/" class="header__logo logo">
+            <img class="logo__image" src="images/logo.svg" alt="Суши Весла">
+        </a>
+        <nav class="header__menu menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu__link menu__link--active">Меню</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Акции</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Новости</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Отзывы</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search search">
+            <input type="text" placeholder="Поиск" class="search__input textfield textfield--search">
+        </div>
+        <div class="header__phone phone">
+            <span class="phone__icon">
+                <img class="icon__image" src="images/icons/phone.svg" alt="">
+            </span>
+            <a href="tel:+375293210000" class="phone__number">+375 (29) 321 00 00</a>
+        </div>
+        <div class="header__lang">
+            <img class="icon__image" src="images/icons/rus.svg" alt="Russian">
+        </div>
+        <div class="header__avatar avatar">
+            <img class="avatar__image" src="images/icons/avatar.svg" alt="">
+            <span class="avatar__name">Константин</span>
+        </div>
+    </div>
+</header>
+
+<div class="slider">
+    <div class="slider__container">
+        <img class="slider__image slider__image--hide" src="images/main-slide.png" alt="">
+        <img class="slider__image" src="images/main-slide.png" alt="">
+        <img class="slider__image slider__image--hide" src="images/main-slide.png" alt="">
+    </div>
+</div>
+
+<div class="infobox container">
+    <div class="address-select">
+        <input type="text" placeholder="Введите адрес доставки или выберите точку самовывоза"
+               class="address-select__input textfield textfield--map">
+        <div class="address-select__dropdown">
+            <ul class="address-select__list">
+                <li class="address-select__list-item">
+                    <div class="address-select__list-icon">
+                        <img src="images/icons/compass.svg" alt="">
+                    </div>
+                    <span>Определить местоположение</span>
+                </li>
+                <li class="address-select__list-item">
+                    <div class="address-select__list-icon">
+                        <img src="images/icons/home.svg" alt="">
+                    </div>
+                    <span>Введите адрес доставки</span>
+                </li>
+                <li class="address-select__list-item">
+                    <div class="address-select__list-icon">
+                        <img src="images/icons/pin.svg" alt="">
+                    </div>
+                    <span>Выберите точку самовывоза</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="infobox__badge">
+        <img class="infobox__badge-icon" src="images/icons/human.svg" alt="">
+        <span class="infobox__badge-title">Самовывоз<br> 20 мин</span>
+    </div>
+    <div class="infobox__badge">
+        <img class="infobox__badge-icon" src="images/icons/car.svg" alt="">
+        <span class="infobox__badge-title">Доставка<br> 60 мин</span>
+    </div>
+    <div class="infobox__bonus">
+        <div class="bonus-card">
+            <button class="bonus-card__action">
+                <img class="bonus-card__icon" src="images/icons/coupon.svg" alt="Промокод">
+                <span>Промокод</span>
+            </button>
+            <div class="bonus-card__dropdown">
+                <div class="bonus-card__dropdown-box">
+                    <div class="bonus-card__group">
+                        <input type="text" class="bonus-card__input" placeholder="Введите промокод">
+                        <button class="bonus-card__submit">Ввести</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bonus-card">
+            <button class="bonus-card__action">
+                <div class="bonus-card__icon">
+                    <img class="bonus-card__icon-image" src="images/icons/coins.svg" alt="Суши-койны">
+                    <span class="bonus-card__icon-badge">22</span>
+                </div>
+                <span>Суши-койны</span>
+            </button>
+        </div>
+        <div class="bonus-card">
+            <button class="bonus-card__action">
+                <div class="bonus-card__icon">
+                    <img class="bonus-card__icon-image" src="images/icons/gift.svg" alt="Подарки">
+                    <span class="bonus-card__icon-badge">22</span>
+                </div>
+                <span>Подарки</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="category-list container">
+    <a href="#" class="category-card category-card--active">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/lunch.png" alt="Обеденное меню">
+        </div>
+        <span class="category-card__title">Обеденное меню</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/noodles.png" alt="Лапша">
+        </div>
+        <span class="category-card__title">Лапша</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/rolls.png" alt="Маки">
+        </div>
+        <span class="category-card__title">Маки</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/ura-rolls.png" alt="Ура Маки">
+        </div>
+        <span class="category-card__title">Ура Маки</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/futo-rolls.png" alt="Футо Маки">
+        </div>
+        <span class="category-card__title">Футо Маки</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/gunkans.png" alt="Гунканы">
+        </div>
+        <span class="category-card__title">Гунканы</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/nigiri.png" alt="Нигири">
+        </div>
+        <span class="category-card__title">Нигири</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/sushi-rrito.png" alt="СушиРрито">
+        </div>
+        <span class="category-card__title">СушиРрито</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/sets.png" alt="Сеты">
+        </div>
+        <span class="category-card__title">Сеты</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/soups.png" alt="Супы">
+        </div>
+        <span class="category-card__title">Супы</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/salad.png" alt="Салаты">
+        </div>
+        <span class="category-card__title">Салаты</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/desert.png" alt="Десерты">
+        </div>
+        <span class="category-card__title">Десерты</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/beverages.png" alt="Напитки">
+        </div>
+        <span class="category-card__title">Напитки</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/sauces.png" alt="Соусы">
+        </div>
+        <span class="category-card__title">Соусы</span>
+    </a>
+    <a href="#" class="category-card">
+        <div class="category-card__image-box">
+            <img class="category-card__image" src="images/category/certificates.png" alt="Соусы">
+        </div>
+        <span class="category-card__title">Сертификаты</span>
+    </a>
+</div>
+
+<div class="catalog-layout container">
+    <main class="catalog-layout__content subdirectory">
+        <div class="subdirectory__header">
+            <h3 class="subdirectory__title">Раздел подкаталога</h3>
+            <button class="filter-button">
+                <img class="filter-button__icon" src="images/icons/filter.svg" alt="">
+                <span>Фильтры</span>
+            </button>
+        </div>
+        <div class="subdirectory__list">
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/nigiri.png" alt="Нигири с тунцом опаленным">
+                </div>
+                <p class="catalog-card__title">Нигири с тунцом опаленным</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">2.90</span> руб. за 1 порцию
+                        (1шт)</p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/bekon.png" alt="Бекон черри маки">
+                </div>
+                <p class="catalog-card__title">Бекон черри маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">5.60</span> руб. за 1 порцию
+                        (8шт)</p>
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">3.10</span> руб. за 1/2
+                        порции (4шт)
+                    </p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="1" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/set.png" alt="Сет - Новогодний">
+                </div>
+                <p class="catalog-card__title">Сет “Новогодний”</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price">1 порция (10шт)
+                        <span class="catalog-card__price--bold"><span
+                                class="catalog-card__price--underline">56.90</span> | 45.00</span>
+                    </p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="0.5" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/california.png" alt="Калифорния маки">
+                </div>
+                <p class="catalog-card__title">Калифорния маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">2.90</span> руб. за 1 порцию
+                        (1шт)</p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/kunsei.png" alt="Кунсей маки">
+                </div>
+                <p class="catalog-card__title">Кунсей маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">2.90</span> руб. за 1 порцию
+                        (1шт)</p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/bunsai.png" alt="Бунсай маки">
+                </div>
+                <p class="catalog-card__title">Бунсай маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">5.60</span> руб. за 1 порцию
+                        (8шт)</p>
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">3.10</span> руб. за 1/2
+                        порции (4шт)
+                    </p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/tamago.png" alt="Тамаго">
+                </div>
+                <p class="catalog-card__title">Тамаго</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">2.90</span> руб. за 1 порцию
+                        (1шт)</p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/arizona.png" alt="Аризона маки">
+                </div>
+                <p class="catalog-card__title">Аризона маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">5.60</span> руб. за 1 порцию
+                        (8шт)</p>
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">3.10</span> руб. за 1/2
+                        порции (4шт)
+                    </p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/set-2.png" alt="Сет - Опять мне">
+                </div>
+                <p class="catalog-card__title">Сет ”Опять мне”</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price">1 порция (10шт)
+                        <span class="catalog-card__price--bold"><span
+                                class="catalog-card__price--underline">56.90</span> | 45.00</span>
+                    </p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#" class="catalog-card">
+                <div class="catalog-card__image-box">
+                    <img src="images/catalog/atami.png" alt="Атами маки">
+                </div>
+                <p class="catalog-card__title">Атами маки</p>
+                <div class="catalog-card__price-box">
+                    <p class="catalog-card__price"><span class="catalog-card__price--bold">2.90</span> руб. за 1 порцию
+                        (1шт)</p>
+                </div>
+                <div class="catalog-card__input counter">
+                    <button class="counter__button counter__button--minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                fill="#464646" />
+                        </svg>
+                    </button>
+                    <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                    <button class="counter__button counter__button--plus">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                fill="#5DB300" />
+                        </svg>
+                    </button>
+                </div>
+            </a>
+            <a href="#">
+                <img src="images/banner.png" alt="">
+            </a>
+        </div>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__col">
+                    <div class="footer__top">
+                        <a href="/" class="footer__logo logo">
+                            <img class="logo__image" src="images/logo.svg" alt="Суши Весла">
+                        </a>
+                        <div class="footer__contacts">
+                            <p>Прием заказов:
+                                <a href="tel:+375293210000" class="footer__link">+375 29 321 00 00</a>,
+                                <a href="tel:+375333210000" class="footer__link">+375 33 321 00 00</a>
+                            </p>
+                            <p>Ждем коммерческие предложения:
+                                <a href="mailto:info@sushivesla.by" class="footer__link">info@sushivesla.by</a>
+                            </p>
+                            <p>Для отзывов и комплиментов:
+                                <a href="mailto:feedback@sushivesla.by" class="footer__link">feedback@sushivesla.by</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__address">
+                        <p>Адреса OOO “Кузница вкуса”:</p>
+                        <p>г.Минск, пр. Машерова, 78 (11.00-23.00)</p>
+                        <p>г.Минск, ул. Я. Коласа, 37 ТЦ "Айсберг" (круглосуточно)</p>
+                        <p>г.Минск, ул. Притыцкого, 83 (11.00-23.00)</p>
+                        <p>г.Минск, ул. Шафарнянская, 11 (11.00-23.00)</p>
+                        <p>г.Минск, ул. Уманская, 54 ТЦ "Глобо" (пн- чт, вс 11.00-23.00, пт-сб круглосуточно)</p>
+                        <p>г.Минск, пр. Партизанский, 150а ТЦ "Момо" (10.00-23.00)</p>
+                        <p>г.Минск, пр. Победителей, 9 ТРЦ "Galleria Minsk" (10.00-22.00)</p>
+                    </div>
+                    <div class="footer__delivery">
+                        <a href="#" class="footer__link">Подробнее условия оплаты и доставки</a>
+                        <img class="footer__visa" src="images/visa.svg" alt="">
+                    </div>
+                    <div class="footer__bottom">
+                        <a href="#" class="footer__link">Арендодателям</a>
+                        <a href="#" class="footer__link">Поставщикам</a>
+                        <a href="#" class="footer__link">Правила реализации подарочных сертификатов</a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <div class="footer__text">
+                        <p>ООО «Кузница Вкуса»<br>
+                            Зарегистрировано решением Минского районного исполнительного комитета от 25.05.2018г. в
+                            Едином
+                            государственном
+                            регистре
+                            юридических лиц и индивидуальных предпринимателей. Свидетельство о государственной
+                            регистрации
+                            юридического
+                            лица
+                            №193083807</p>
+                        <p>Интернет-магазин sushivesla.by зарегистрирован в Торговом реестре Республики Беларусь
+                            14.01.2016 г.
+                            Регистрационный
+                            номер 301081. УНП 190790821</p>
+                        <p>Интернет-магазин takeaway.sushivesla.by зарегистрирован в Торговом реестре Республики
+                            Беларусь 05.03.2019
+                            г.
+                            Регистрационный номер 442605. УНП 193083807</p>
+                        <p>Юридический и почтовый адрес:<br> 220036, г. Минск, ул. К.
+                            Либкнехта, 45-17а
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2007 - 2023 "СУШИ ВЕСЛА"</p>
+        </footer>
+    </main>
+    <aside class="catalog-layout__cart shopping-cart">
+        <div class="shopping-cart__wrapper">
+            <h3 class="shopping-cart__title">Корзина</h3>
+            <div class="shopping-cart__list">
+                <div class="shopping-cart__item">
+                    <div class="shopping-cart__info">
+                        <p class="shopping-cart__name">Нигири с тунцом опаленным</p>
+                        <p class="shopping-cart__quantity">(1 шт - 38гр)</p>
+                    </div>
+                    <div class="shopping-cart__amount">
+                        <p class="shopping-cart__price">5.00 руб</p>
+                        <div class="shopping-cart__input counter">
+                            <button class="counter__button counter__button--minus counter__button--red">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                        fill="#464646" />
+                                </svg>
+                            </button>
+                            <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                            <button class="counter__button counter__button--plus counter__button--green">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                        fill="#5DB300" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-cart__item">
+                    <div class="shopping-cart__info">
+                        <p class="shopping-cart__name">Нигири с тунцом опаленным</p>
+                        <p class="shopping-cart__quantity">(1 шт - 38гр)</p>
+                    </div>
+                    <div class="shopping-cart__amount">
+                        <p class="shopping-cart__price">5.00 руб</p>
+                        <div class="shopping-cart__input counter">
+                            <button class="counter__button counter__button--minus counter__button--red">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                        fill="#464646" />
+                                </svg>
+                            </button>
+                            <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                            <button class="counter__button counter__button--plus counter__button--green">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                        fill="#5DB300" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-cart__item shopping-cart__item--gift">
+                    <div class="shopping-cart__info">
+                        <p class="shopping-cart__name">Нигири с тунцом опаленным</p>
+                        <p class="shopping-cart__quantity">(24 шт - 964гр)</p>
+                    </div>
+                    <div class="shopping-cart__gift">
+                        <span class="shopping-cart__gift-title">Подарок</span>
+                        <img class="shopping-cart__gift-image" src="images/icons/gift.svg" alt="Подарок">
+                    </div>
+                </div>
+            </div>
+            <div class="shopping-cart__footer">
+                <div class="shopping-cart__coins-box">
+                    <div class="shopping-cart__coins">
+                        <div class="shopping-cart__coins-icon">
+                            <img class="shopping-cart__coins-image" src="images/icons/coins.svg" alt="СВ-коины">
+                            <span class="shopping-cart__coins-badge">22</span>
+                        </div>
+                        <span class="shopping-cart__coins-title">СВ-коины</span>
+                    </div>
+                    <div class="shopping-cart__input counter">
+                        <button class="counter__button counter__button--minus counter__button--red">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M15.833 9.16667H4.16634C3.94533 9.16667 3.73337 9.25447 3.57709 9.41075C3.42081 9.56703 3.33301 9.77899 3.33301 10C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 10C16.6663 9.77899 16.5785 9.56703 16.4223 9.41075C16.266 9.25447 16.054 9.16667 15.833 9.16667Z"
+                                    fill="#464646" />
+                            </svg>
+                        </button>
+                        <input class="counter__field" type="number" value="2" step="0.5" min="0" max="10" readonly>
+                        <button class="counter__button counter__button--plus counter__button--green">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M15.833 9.16666H10.833V4.16666C10.833 3.94565 10.7452 3.73369 10.5889 3.57741C10.4326 3.42113 10.2207 3.33333 9.99967 3.33333C9.77866 3.33333 9.5667 3.42113 9.41042 3.57741C9.25414 3.73369 9.16634 3.94565 9.16634 4.16666V9.16666H4.16634C3.94533 9.16666 3.73337 9.25446 3.57709 9.41074C3.42081 9.56702 3.33301 9.77898 3.33301 9.99999C3.33301 10.221 3.42081 10.433 3.57709 10.5893C3.73337 10.7455 3.94533 10.8333 4.16634 10.8333H9.16634V15.8333C9.16634 16.0543 9.25414 16.2663 9.41042 16.4226C9.5667 16.5789 9.77866 16.6667 9.99967 16.6667C10.2207 16.6667 10.4326 16.5789 10.5889 16.4226C10.7452 16.2663 10.833 16.0543 10.833 15.8333V10.8333H15.833C16.054 10.8333 16.266 10.7455 16.4223 10.5893C16.5785 10.433 16.6663 10.221 16.6663 9.99999C16.6663 9.77898 16.5785 9.56702 16.4223 9.41074C16.266 9.25446 16.054 9.16666 15.833 9.16666Z"
+                                    fill="#5DB300" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="shopping-cart__total">
+                    <p class="shopping-cart__total-caption">Скидка <span class="shopping-cart__total-price shopping-cart__total-price--old">60.80 руб</span></p>
+                    <p class="shopping-cart__total-caption">Сумма со скидкой <span class="shopping-cart__total-price shopping-cart__total-price--new">59.80 руб</span></p>
+                </div>
+                <a href="#" class="button button--green button--block">
+                    <img class="button__icon" src="images/icons/shopping-cart.svg" alt="">
+                    <span>Оформить заказ</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+</div>
+
+<!-- Popups -->
+<!-- <div id="success" class="popup">
+  <p class="popup__title">Спасибо за заявку!<br> Мы свяжемся с Вами в ближайшее время</p>
+</div> -->
+
+<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/owlcarousel/js/owl.carousel.min.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="libs/animate/wow.min.js"></script>
+<script src="libs/maskinput/maskinput.js"></script>
+<script src="libs/validate/jquery.validate.min.js"></script>
+<script src="js/common.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter -->
+<!-- /Google Analytics counter -->
+
+</body>
+
+</html>
